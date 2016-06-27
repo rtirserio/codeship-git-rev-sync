@@ -1,7 +1,11 @@
 {
   "name": "codeship-git-rev-sync",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Wrapper for git-rev-sync to be used with Codeship builds",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/rtirserio/codeship-git-rev-sync.git"
+  },
   "main": "index.js",
   "scripts": {
     "test": "istanbul cover _mocha -- -R spec --recursive test"
@@ -11,6 +15,9 @@
     "git-rev",
     "codeship"
   ],
+  "bugs": {
+    "url": "https://github.com/rtirserio/codeship-git-rev-sync/issues"
+  },
   "author": "Rob Tirserio",
   "license": "MIT",
   "dependencies": {
